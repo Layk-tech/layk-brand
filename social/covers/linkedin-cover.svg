@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <defs>
+    <linearGradient id="cursor-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="#060a14"/>
+  <!-- Code decorativo à esquerda -->
+  <g opacity="0.06" font-family="'Space Grotesk', monospace" font-size="14" fill="white">
+    <text x="80" y="60">const layk = require('@layk/core');</text>
+    <text x="80" y="85">const ai = layk.init({ model: 'latest' });</text>
+    <text x="80" y="110">await ai.build({ target: 'production' });</text>
+    <text x="80" y="135">// → shipping</text>
+    <text x="80" y="185">const hub = layk.connect('hub');</text>
+    <text x="80" y="210">hub.deploy({ scale: 'auto' });</text>
+    <text x="80" y="235">hub.monitor({ uptime: '99.99%' });</text>
+    <text x="80" y="260">// → live</text>
+    <text x="80" y="310">const agent = layk.agent('whatsapp');</text>
+    <text x="80" y="335">agent.listen({ channel: 'all' });</text>
+    <text x="80" y="360">process.exit(0); // done</text>
+  </g>
+  <!-- Linha vertical separadora -->
+  <line x1="860" y1="50" x2="860" y2="346" stroke="url(#cursor-gradient)" stroke-width="1" opacity="0.2"/>
+  <!-- Logo à direita -->
+  <text x="940" y="210" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="300" fill="#2DD4BF">›</text>
+  <text x="978" y="212" font-family="'Space Grotesk', sans-serif" font-size="62" font-weight="700" fill="white" letter-spacing="12">LAYK</text>
+  <rect x="978" y="228" width="230" height="2" rx="1" fill="url(#cursor-gradient)" opacity="0.3"/>
+  <!-- Tagline -->
+  <text x="1093" y="268" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="14" fill="#3a4f6f" letter-spacing="5">AI-NATIVE SOFTWARE HOUSE</text>
+</svg>
