@@ -1,12 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <defs>
-    <linearGradient id="underline-g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2DD4BF"/>
-      <stop offset="100%" stop-color="#6366f1"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="14" fill="#0a0e1a"/>
-  <text x="10" y="42" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="300" fill="#2DD4BF">›</text>
-  <text x="28" y="43" font-family="'Space Grotesk', sans-serif" font-size="30" font-weight="700" fill="white" letter-spacing="2">L</text>
-  <rect x="10" y="50" width="44" height="2" rx="1" fill="url(#underline-g)" opacity="0.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Chevron < ocupando o máximo do quadrado, verde neon, fundo transparente -->
+  <path d="M22 3 L4 16 L22 29 L27 24 L14 16 L27 8 Z" fill="#00E5A0"/>
 </svg>

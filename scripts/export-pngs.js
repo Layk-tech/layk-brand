@@ -10,19 +10,15 @@ const conversions = [
   { src: 'logo/principal/layk-transparent.svg', out: 'logo/principal/layk-transparent.png', w: 2048 },
   { src: 'logo/principal/layk-dark-bg.svg',     out: 'logo/principal/layk-dark-bg.png',     w: 2048 },
   { src: 'logo/principal/layk-light-bg.svg',    out: 'logo/principal/layk-light-bg.png',    w: 2048 },
-  // Logo HUB
-  { src: 'logo/hub/layk-hub-transparent.svg', out: 'logo/hub/layk-hub-transparent.png', w: 2048 },
-  { src: 'logo/hub/layk-hub-dark-bg.svg',     out: 'logo/hub/layk-hub-dark-bg.png',     w: 2048 },
-  { src: 'logo/hub/layk-hub-light-bg.svg',    out: 'logo/hub/layk-hub-light-bg.png',    w: 2048 },
+  // Símbolo < solo
+  { src: 'logo/simbolo/layk-simbolo.svg', out: 'logo/simbolo/layk-simbolo.png', w: 2048 },
   // Lockup
   { src: 'logo/lockup/layk-tagline.svg', out: 'logo/lockup/layk-tagline.png', w: 2048 },
-  // Favicons
+  // Favicons (og-image.png é copiada do site, não gerada aqui)
   { src: 'logo/icon/favicon.svg', out: 'logo/icon/favicon-32.png',       w: 32,  h: 32  },
   { src: 'logo/icon/favicon.svg', out: 'logo/icon/apple-touch-icon.png', w: 180, h: 180 },
   { src: 'logo/icon/favicon.svg', out: 'logo/icon/favicon-192.png',      w: 192, h: 192 },
-  { src: 'logo/icon/favicon.svg', out: 'logo/icon/og-icon.png',          w: 512, h: 512 },
-  // Avatar
-  { src: 'social/avatar/avatar-circle.svg', out: 'social/avatar/avatar-circle.png', w: 512, h: 512 },
+  // Avatar (único, quadrado)
   { src: 'social/avatar/avatar-square.svg', out: 'social/avatar/avatar-square.png', w: 512, h: 512 },
   // Covers
   { src: 'social/covers/linkedin-cover.svg', out: 'social/covers/linkedin-cover.png', w: 1584, h: 396 },
@@ -66,11 +62,11 @@ async function convert() {
     const html = `<!doctype html>
 <html>
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:ital,wght@1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { width: ${w}px; height: ${height}px; overflow: hidden; }
-  body { font-family: 'Space Grotesk', sans-serif; }
+  body { font-family: 'Inter', sans-serif; }
   svg { display: block; width: ${w}px; height: ${height}px; }
 </style>
 </head>

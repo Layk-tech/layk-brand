@@ -1,24 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
-  <defs>
-    <linearGradient id="cursor-gradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2DD4BF"/>
-      <stop offset="100%" stop-color="#6366f1"/>
-    </linearGradient>
-    <linearGradient id="bg-gradient" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#060a14"/>
-      <stop offset="100%" stop-color="#0a1020"/>
-    </linearGradient>
-  </defs>
-  <rect width="1080" height="1920" fill="url(#bg-gradient)"/>
+  <rect width="1080" height="1920" fill="#000000"/>
   <!-- Logo no topo -->
-  <text x="80" y="140" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="300" fill="#2DD4BF">›</text>
-  <text x="102" y="140" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700" fill="white" letter-spacing="6">LAYK</text>
-  <rect x="102" y="150" width="120" height="1.2" rx="0.6" fill="url(#cursor-gradient)" opacity="0.25"/>
-  <!-- Área de conteúdo central -->
-  <text x="80" y="820" font-family="'Space Grotesk', sans-serif" font-size="14" fill="#2a3a5a" letter-spacing="4">TÍTULO</text>
-  <text x="80" y="920" font-family="'Space Grotesk', sans-serif" font-size="72" font-weight="700" fill="white">Conteúdo</text>
-  <text x="80" y="1010" font-family="'Space Grotesk', sans-serif" font-size="72" font-weight="700" fill="white">principal</text>
-  <text x="80" y="1100" font-family="'Space Grotesk', sans-serif" font-size="72" font-weight="300" fill="#2DD4BF">aqui.</text>
+  <text x="78" y="154" font-family="Inter, sans-serif" font-size="40" font-weight="900" fill="#00E5A0" letter-spacing="-1">&lt;</text>
+  <text x="124" y="154" font-family="Inter, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF" letter-spacing="7">LAYK</text>
+  <!-- Kicker (placeholder) -->
+  <text x="80" y="840" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="500" fill="#FFFFFF" fill-opacity="0.45" letter-spacing="6">TEMA</text>
+  <!-- Headline (placeholder) — Inter 400 + Playfair italic no destaque -->
+  <text x="78" y="980" font-family="Inter, sans-serif" font-size="100" font-weight="400" fill="#FFFFFF" letter-spacing="-2">Conteúdo</text>
+  <text x="78" y="1100" font-family="'Playfair Display', serif" font-size="100" font-weight="500" font-style="italic" fill="#FFFFFF" letter-spacing="-1">principal.</text>
   <!-- Rodapé -->
-  <text x="540" y="1820" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="14" fill="#3a4f6f" letter-spacing="4">AI-NATIVE SOFTWARE HOUSE</text>
+  <rect x="80" y="1780" width="920" height="1" fill="#FFFFFF" opacity="0.12"/>
+  <text x="540" y="1850" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" fill-opacity="0.45" letter-spacing="5">AI THAT ADAPTS.</text>
 </svg>

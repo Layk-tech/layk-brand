@@ -1,44 +1,42 @@
 /* ============================================
    LAYK — Brand Color Palette
-   AI-native software house
+   AI-native business platform · AI THAT ADAPTS.
+   Estética B&W Palantir-style. Verde só em accent.
+   Fonte da verdade: identidade/design-guide.md
    ============================================ */
 
 :root {
-  /* ---- Background ---- */
-  --layk-bg-primary: #0a0e1a;
-  --layk-bg-deep: #060a14;
-  --layk-bg-card: #0f1629;
-  --layk-bg-light: #f4f5f7;
-  --layk-bg-white: #ffffff;
+  /* ---- Base B&W ---- */
+  --layk-black: #000000;        /* bg dark padrão (hero, seções escuras) */
+  --layk-clean: #ffffff;        /* off-white — bg light */
 
-  /* ---- Accent: Teal ---- */
-  --layk-teal: #2DD4BF;
-  --layk-teal-dark: #0f9d84;
-  --layk-teal-10: rgba(45, 212, 191, 0.1);
-  --layk-teal-25: rgba(45, 212, 191, 0.25);
+  /* ---- Texto sobre dark bg ---- */
+  --layk-text-on-dark: #ffffff;
+  --layk-text-on-dark-65: rgba(255, 255, 255, 0.65); /* subhead */
+  --layk-text-on-dark-55: rgba(255, 255, 255, 0.55); /* descrições */
+  --layk-text-on-dark-45: rgba(255, 255, 255, 0.45); /* labels/kickers */
 
-  /* ---- Accent: Indigo ---- */
-  --layk-indigo: #6366f1;
-  --layk-indigo-10: rgba(99, 102, 241, 0.1);
-  --layk-indigo-25: rgba(99, 102, 241, 0.25);
+  /* ---- Texto sobre light bg ---- */
+  --layk-text-on-light: #0a0a0a;
+  --layk-text-on-light-55: rgba(10, 10, 10, 0.55);
+  --layk-text-on-light-45: rgba(10, 10, 10, 0.45);
+  --layk-text-on-light-muted: #555555;
 
-  /* ---- Text ---- */
-  --layk-text-primary: #ffffff;
-  --layk-text-secondary: #a0aec0;
-  --layk-text-muted: #3a4f6f;
-  --layk-text-dark: #0a0e1a;
+  /* ---- Hairlines (separadores, bordas de grid) ---- */
+  --layk-hairline-dark: rgba(255, 255, 255, 0.12);   /* sobre preto */
+  --layk-hairline-light: rgba(10, 10, 10, 0.12);     /* sobre off-white */
 
-  /* ---- Borders ---- */
-  --layk-border: #111827;
-  --layk-border-subtle: #1e2640;
+  /* ---- Accent: verde neon (uso pontual, ≤1 por seção, nunca em texto corrido) ---- */
+  --layk-green: #00e5a0;        /* símbolo < da logo, dot de status, hashtag, accents */
 
-  /* ---- Gradient ---- */
-  --layk-gradient: linear-gradient(90deg, #2DD4BF, #6366f1);
-  --layk-gradient-diagonal: linear-gradient(135deg, #2DD4BF, #6366f1);
+  /* ---- Verde WhatsApp (apenas em CTAs de WhatsApp) ---- */
+  --layk-whatsapp: #25d366;
+  --layk-whatsapp-dark: #1ebe5a;
 
   /* ---- Typography ---- */
-  --layk-font-primary: 'Space Grotesk', sans-serif;
-  --layk-font-mono: 'JetBrains Mono', 'Space Grotesk', monospace;
+  --layk-font-sans: 'Inter', sans-serif;                /* UI, headlines, body */
+  --layk-font-serif: 'Playfair Display', serif;         /* destaque italic em headlines */
+  --layk-font-mono: 'JetBrains Mono', monospace;        /* kickers, tags, técnicas */
 
   /* ---- Spacing (logo safe area) ---- */
   --layk-logo-safe-area: 24px; /* mínimo de respiro ao redor da logo */
