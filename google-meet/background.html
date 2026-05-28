@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>LAYK — Google Meet Background</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 1920px;
+      height: 1080px;
+      background: #000;
+      font-family: 'Inter', sans-serif;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Dot grid */
+    .dot-grid {
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle, rgba(255,255,255,0.055) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+
+    /* Vignette — escurece as bordas pra dar profundidade */
+    .vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 140% 100% at 50% 50%, transparent 30%, rgba(0,0,0,0.65) 100%);
+    }
+
+    /* Hairline no topo */
+    .line-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: rgba(255,255,255,0.10);
+    }
+
+    /* Hairline no rodapé */
+    .line-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: rgba(255,255,255,0.06);
+    }
+
+    /* Logo — canto superior esquerdo */
+    .logo-area {
+      position: absolute;
+      top: 52px;
+      left: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      line-height: 1;
+    }
+
+    .logo-chevron {
+      font-family: 'Inter', sans-serif;
+      font-weight: 900;
+      font-size: 52px;
+      color: #00E5A0;
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+
+    .logo-wordmark {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 52px;
+      color: #FFFFFF;
+      letter-spacing: 6px;
+      line-height: 1;
+    }
+
+    .hairline-logo {
+      width: 48px;
+      height: 1px;
+      background: rgba(255,255,255,0.18);
+    }
+
+    .tagline {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 500;
+      font-size: 13px;
+      color: rgba(255,255,255,0.38);
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+    }
+
+    /* URL — canto inferior direito */
+    .url {
+      position: absolute;
+      bottom: 44px;
+      right: 56px;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 400;
+      font-size: 12px;
+      color: rgba(255,255,255,0.20);
+      letter-spacing: 0.12em;
+    }
+
+    /* Acento verde — ponto de status discreto ao lado do logo */
+    .status-dot {
+      position: absolute;
+      top: 58px;
+      left: 60px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #00E5A0;
+      opacity: 0;
+      /* Ativado só se quiser: remova o opacity: 0 */
+    }
+  </style>
+</head>
+<body>
+  <div class="dot-grid"></div>
+  <div class="vignette"></div>
+  <div class="line-top"></div>
+  <div class="line-bottom"></div>
+
+  <div class="logo-area">
+    <div class="logo">
+      <span class="logo-chevron">&lt;</span>
+      <span class="logo-wordmark">LAYK</span>
+    </div>
+    <div class="hairline-logo"></div>
+    <div class="tagline">AI THAT ADAPTS.</div>
+  </div>
+
+  <div class="url">layk.com.br</div>
+</body>
+</html>
