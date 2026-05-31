@@ -1,6 +1,6 @@
 # LAYK Brand Assets
 
-> AI-native business platform — **AI THAT ADAPTS.**
+> AI-native business platform — **AI WITH STRATEGY.**
 > Estética B&W Palantir-style. Fonte da verdade do estilo: `identidade/design-guide.md` no LaykOS.
 
 ## Estrutura
@@ -10,7 +10,7 @@ layk-brand/
 ├── logo/
 │   ├── principal/       ← Logo < LAYK (dark, light, transparent)
 │   ├── simbolo/         ← Chevron < solo (favicon, marca d'água)
-│   ├── lockup/          ← < LAYK + tagline "AI THAT ADAPTS."
+│   ├── lockup/          ← < LAYK + tagline "AI WITH STRATEGY."
 │   └── icon/            ← Favicons + og-image
 ├── social/
 │   ├── avatar/          ← Avatar quadrado (< solo) para redes

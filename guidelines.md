@@ -5,7 +5,7 @@
 
 ## Identidade
 
-A LAYK é uma **AI-native business platform**. Implanta um ambiente digital sob medida que conecta processos, dados, automações e IA no ecossistema da empresa. Tagline: **AI THAT ADAPTS.**
+A LAYK é uma **AI-native business platform**. Implanta um ambiente digital sob medida que conecta processos, dados, automações e IA no ecossistema da empresa. Tagline: **AI WITH STRATEGY.**
 
 Inspiração visual: Palantir, Stripe, Linear, Vercel. Sem decoração desnecessária, sem gradients chamativos, sem peso 700 "marketing". O verde neon entra com parcimônia, como acento — nunca como cor de base.
 
@@ -96,7 +96,7 @@ O ícone reduzido usa o chevron `<` solo verde em bg escuro. Tamanhos: `favicon.
 
 ## OG image / preview social
 
-`og-image.png` 1200×630, bg `#000`: `< LAYK` centralizado + **"AI THAT ADAPTS."** em mono verde abaixo, com hairline separador. Conteúdo concentrado no centro (safe area ~500×500) pra sobreviver ao crop quadrado do WhatsApp.
+`og-image.png` 1200×630, bg `#000`: `< LAYK` centralizado + **"AI WITH STRATEGY."** em mono verde abaixo, com hairline separador. Conteúdo concentrado no centro (safe area ~500×500) pra sobreviver ao crop quadrado do WhatsApp.
 
 ## Avatar redes sociais
 
@@ -104,4 +104,4 @@ Asset quadrado 1:1, chevron `<` solo verde em bg preto. Sobrevive cropado em cí
 
 ## Covers
 
-Layout largo próprio (não cópia da OG): `< LAYK` + `AI THAT ADAPTS.` alinhados à esquerda em bg preto, com hairline/respiro à direita — pegada Palantir/Linear. LinkedIn 1584×396, Twitter/X 1500×500.
+Layout largo próprio (não cópia da OG): `< LAYK` + `AI WITH STRATEGY.` alinhados à esquerda em bg preto, com hairline/respiro à direita — pegada Palantir/Linear. LinkedIn 1584×396, Twitter/X 1500×500.

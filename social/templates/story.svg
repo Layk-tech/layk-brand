@@ -10,5 +10,5 @@
   <text x="78" y="1100" font-family="'Playfair Display', serif" font-size="100" font-weight="500" font-style="italic" fill="#FFFFFF" letter-spacing="-1">principal.</text>
   <!-- Rodapé -->
   <rect x="80" y="1780" width="920" height="1" fill="#FFFFFF" opacity="0.12"/>
-  <text x="540" y="1850" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" fill-opacity="0.45" letter-spacing="5">AI THAT ADAPTS.</text>
+  <text x="540" y="1850" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" fill-opacity="0.45" letter-spacing="5">AI WITH STRATEGY.</text>
 </svg>

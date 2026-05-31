@@ -5,7 +5,7 @@
   <text x="220" y="264" font-family="Inter, sans-serif" font-size="110" font-weight="700" fill="#FFFFFF" letter-spacing="22">LAYK</text>
   <!-- Hairline acima da tagline -->
   <rect x="222" y="290" width="60" height="2" fill="#FFFFFF" opacity="0.3"/>
-  <text x="222" y="330" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="500" fill="#FFFFFF" fill-opacity="0.45" letter-spacing="8">AI THAT ADAPTS.</text>
+  <text x="222" y="330" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="500" fill="#FFFFFF" fill-opacity="0.45" letter-spacing="8">AI WITH STRATEGY.</text>
   <!-- Respiro à direita: hairline vertical divisória -->
   <line x1="760" y1="174" x2="760" y2="330" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
 </svg>
