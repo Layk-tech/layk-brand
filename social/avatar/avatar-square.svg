@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Avatar LAYK — wordmark < LAYK horizontal centralizado. Editável (usa fonte Inter).
+       Para vetor puro: selecione o texto e "Criar contornos" no Figma/Illustrator.
+       Versão só-chevron preservada em avatar-chevron.svg / logo/simbolo/. -->
   <rect width="512" height="512" fill="#000000"/>
-  <!-- Chevron < solo, verde, centralizado. Sobrevive cropado em círculo. -->
-  <g transform="translate(101,96) scale(10)">
-    <path d="M22 3 L4 16 L22 29 L27 24 L14 16 L27 8 Z" fill="#00E5A0"/>
-  </g>
+  <text x="256" y="292" text-anchor="middle" font-family="Inter, sans-serif"><tspan font-weight="900" font-size="104" fill="#00E5A0">&lt;</tspan><tspan font-weight="700" font-size="104" letter-spacing="12" fill="#FFFFFF" dx="16">LAYK</tspan></text>
 </svg>

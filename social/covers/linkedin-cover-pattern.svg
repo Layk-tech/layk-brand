@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 191" width="1128" height="191">
   <defs>
     <pattern id="chev" width="44" height="38" patternUnits="userSpaceOnUse" patternTransform="translate(0,4)">
-      <g transform="translate(13,10) scale(0.74)" fill="rgba(255,255,255,0.2)">
+      <g transform="translate(13,10) scale(0.74)" fill="rgba(255,255,255,0.1)">
         <path d="M22 3 L4 16 L22 29 L27 24 L14 16 L27 8 Z"/>
       </g>
     </pattern>
@@ -14,9 +14,11 @@
   </defs>
 
   <rect width="1128" height="191" fill="#000000"/>
-  <!-- tapete cobrindo todo o fundo, com fade L->R -->
+  <!-- padrão de chevrons com fade L->R -->
   <rect width="1128" height="191" fill="url(#chev)" mask="url(#fadeMask)"/>
 
-  <!-- só traço + slogan, canto inferior direito -->
-  <text x="1080" y="150" text-anchor="end" font-family="'JetBrains Mono', monospace" font-weight="500" font-size="13" letter-spacing="3.6" fill="#FFFFFF" fill-opacity="0.90"><tspan font-family="Inter, sans-serif" font-weight="900" font-size="18" letter-spacing="0" fill="#00E5A0" fill-opacity="1">&lt;</tspan><tspan dx="8">AI WITH STRATEGY.</tspan></text>
+  <!-- lockup canônico pequeno, canto inferior direito -->
+  <text x="1080" y="128" text-anchor="end" font-family="Inter, sans-serif"><tspan font-weight="900" font-size="44" fill="#00E5A0">&lt;</tspan><tspan font-weight="700" font-size="44" letter-spacing="6" fill="#FFFFFF" dx="8">LAYK</tspan></text>
+  <rect x="1046" y="140" width="34" height="2" fill="#FFFFFF" opacity="0.30"/>
+  <text x="1080" y="160" text-anchor="end" font-family="'JetBrains Mono', monospace" font-weight="500" font-size="10" letter-spacing="3.2" fill="#FFFFFF" fill-opacity="0.45">AI WITH STRATEGY.</text>
 </svg>
