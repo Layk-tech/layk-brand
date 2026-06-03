@@ -22,6 +22,7 @@ const conversions = [
   { src: 'social/avatar/avatar-square.svg', out: 'social/avatar/avatar-square.png', w: 512, h: 512 },
   // Covers
   { src: 'social/covers/linkedin-cover.svg', out: 'social/covers/linkedin-cover.png', w: 1584, h: 396 },
+  { src: 'social/covers/linkedin-profile-cover-vec.svg', out: 'social/covers/linkedin-profile-cover-vec.png', w: 1584, h: 396 },
   { src: 'social/covers/twitter-header.svg', out: 'social/covers/twitter-header.png', w: 1500, h: 500 },
   // Templates
   { src: 'social/templates/post-instagram.svg', out: 'social/templates/post-instagram.png', w: 1080, h: 1080 },
